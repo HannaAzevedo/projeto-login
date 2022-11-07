@@ -82,28 +82,28 @@ div#formulario > p {
 
 form > div.campo {
     background-color: var(--cor05);
-    height: 46px;
+    height: 42px;
     border-radius: 8px;
     margin: 5px 0px;
-    padding-bottom: 5px;
+    padding: 5px;
 }
 
 form > div > span {
     color: white;
     font-size: 2em;
     width: 40px;
-    padding: 8px;
+    padding: 5px;
 }
 
 div.campo > input {
     background-color: var(--cor02);
     font-size: 1em;
-    width: calc(100% - 48px);
+    width: calc(100% - 44.5px);
     height: 100%;
-    border: 1px solid var(--cor05);
+    border: none;
     border-radius: 8px;
     padding: 5px;
-    transform: translateY(-2.5px);
+    transform: translateY(-6px);
 }
 
 div.campo > input:focus-within {
