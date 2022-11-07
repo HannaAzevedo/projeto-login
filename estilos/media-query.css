@@ -15,6 +15,7 @@ preto: 000000
     --cor04: #000000;
     --cor05: #B3DB4F;
 }
+/*Estilo tela Tablet*/
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
@@ -23,7 +24,7 @@ preto: 000000
     }
 
     main > section#login {
-        width: 70vw;
+        width: 700px;
     }
 
     main > section#login > div#imagem {
@@ -33,11 +34,14 @@ preto: 000000
         background: var(--cor01) url(../imagens/tablet.png) no-repeat;
         background-position: center;
     }
+
     main > section#login > div#formulario {
         float: right;
         width: 60%;
     }
 }
+
+/*Estilo telaPC e maiores*/
 @media screen and (min-width: 992px) {
 
     body {
@@ -47,6 +51,7 @@ preto: 000000
     main > section#login {
         width: 920px;
     }
+
     main > section#login > div#imagem {
         float: left;
         width: 40%;
@@ -54,8 +59,17 @@ preto: 000000
         background: var(--cor01) url(../imagens/tablet.png) no-repeat;
         background-position: center;
     }
+
     main > section#login > div#formulario {
         float: right;
         width: 60%;
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
     }
 }
