@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/*
+Paleta de cores
+Roxo: #5E4772
+Roxo claro: #D7BDED
+branco: 
+preto: 000000
+*/
+:root {
+    --cor01: #5E4772;
+    --cor02: #D7BDED;
+    --cor03: #FFFFFF;
+    --cor04: #000000;
+    --cor05: #B3DB4F;
+}
+body {
+    background-color: var(--cor01);
+}
+
