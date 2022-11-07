@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* telas gerais*/
+/*
+Paleta de cores
+Roxo: #5E4772
+Roxo claro: #D7BDED
+branco: 
+preto: 000000
+*/
+
+:root {
+    --cor01: #3F1C5D;
+    --cor02: #D7BDED;
+    --cor03: #FFFFFF;
+    --cor04: #000000;
+    --cor05: #B3DB4F;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    body {
+        background-image: radial-gradient( var(--cor01), var(--cor04));
+    }
+
+    main > section#login {
+        width: 90vw;
+        text-align: center;
+    }
+
+    main > section#login > div#imagem {
+        float: left;
+        width: 40%;
+        height: 100%;
+        background: var(--cor01) url(../imagens/tablet.png) no-repeat;
+        background-position: center;
+    }
+    main > section#login > div#formulario {
+        float: right;
+        width: 60%;
+    }
+}
+@media screen and (min-width: 992px) {
+
+    body {
+        background-image: radial-gradient( var(--cor01), var(--cor04));
+    }
+
+    main > section#login {
+        width: 920px;
+    }
+    main > section#login > div#imagem {
+        float: left;
+        width: 40%;
+        height: 100%;
+        background: var(--cor01) url(../imagens/tablet.png) no-repeat;
+        background-position: center;
+    }
+    main > section#login > div#formulario {
+        float: right;
+        width: 60%;
+    }
+}

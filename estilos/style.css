@@ -22,17 +22,19 @@ preto: 000000
     margin: 0px;
     box-sizing: border-box;
 }
+
 body, html {
     background-color: var(--cor06);
     height: 100vh;
     width: 100vw;
 }
+
 main {
     position: relative;
-    height: 90vh;
-    width: 90vw;
-    text-align: center;
+    height: 100vh;
+    width: 100vw;
 }
+
 section#login {
     background-color: white;
     width: 300px;
@@ -55,6 +57,8 @@ section#login > div#imagem {
     background-position: center;
     height: 150px;
 }
+
+
 section#login > div#formulario {
     display: block;
     padding: 10px;
