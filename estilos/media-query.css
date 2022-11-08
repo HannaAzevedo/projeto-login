@@ -15,6 +15,9 @@ preto: 000000
     --cor04: #000000;
     --cor05: #64017D;
 }
+
+
+
 /*Estilo tela Tablet*/
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -24,7 +27,7 @@ preto: 000000
     }
 
     main > section#login {
-        width: 700px;
+        width: 650px;
         height: 340px;
     }
 
@@ -45,10 +48,7 @@ preto: 000000
 
     div#formulario > h1 {
         font-size: 1.5em;
-    }
-
-    div#formulario > p {
-        margin-top: 20px;
+        padding-top: 15px;
     }
 
 }
@@ -80,7 +80,7 @@ preto: 000000
 
     div#formulario > h1 {
         font-size: 1.8em;
-        padding-bottom: 20px;
+        padding-top: 40px;
     }
 
     div#formulario > p {
