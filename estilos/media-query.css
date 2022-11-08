@@ -61,20 +61,20 @@ preto: 000000
     }
 
     main > section#login {
-        width: 920px;
+        width: 800px;
         height: 380px;
     }
 
     main > section#login > div#imagem {
-        float: left;
+        float: right;
         width: 40%;
         height: 100%;
-        background: var(--cor01) url(../imagens/tablet.png) no-repeat;
+        background: var(--cor01) url(../imagens/desktop.png) no-repeat;
         background-position: center;
     }
 
     main > section#login > div#formulario {
-        float: right;
+        float: left;
         width: 60%;
     }
 

@@ -37,7 +37,8 @@ main {
 }
 
 section#login {
-    background-color: white;
+
+    background-color: var(--cor03);
     width: 300px;
     height: 500px;
     border-radius: 20px;
@@ -45,9 +46,9 @@ section#login {
     top: 50%;
     left: 50%;
     overflow: hidden;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+    box-shadow: 0px 0px 10px rgba(124, 29, 141, 0.384);
     transform: translate(-50%, -50%);
-    transition: width 0.4s, height 0.4s;
+    transition: 0.5s;
     transition-timing-function: ease;
 
 }
@@ -55,11 +56,12 @@ section#login {
 section#login > div#imagem {
     display: block;
     background: var(--cor01) url(../imagens/login.png) no-repeat;
-    background-size: cover;
     background-position: center;
+    background-size: cover;
     height: 150px;
-}
 
+
+}
 
 section#login > div#formulario {
     display: block;
@@ -81,33 +83,39 @@ div#formulario > p {
 }
 
 form > div.campo {
-    background-color: var(--cor05);
+
+    background-color: transparent;
     height: 42px;
+    border: 1px solid var(--cor01);
     border-radius: 8px;
     margin: 5px 0px;
     padding: 5px;
 }
 
 form > div > span {
-    color: white;
+    color: var(--cor04);
     font-size: 2em;
-    width: 40px;
+    width: 30px;
     padding: 5px;
 }
 
 div.campo > input {
-    background-color: var(--cor02);
+    background-color: transparent;
     font-size: 1em;
-    width: calc(100% - 44.5px);
-    height: 100%;
+    width: calc(100% - 34.5px);
+    height: 34px;
     border: none;
     border-radius: 8px;
-    padding: 5px;
-    transform: translateY(-6px);
+    padding-top: 8px;
+    padding-left: 5px;
+    transform: translateY(-4px);
 }
 
+
 div.campo > input:focus-within {
-    background-color: var(--cor03);
+    background-color: var(--cor0);
+    outline-style: solid;
+    outline-color: var(--cor02);
 }
 
 form label {
@@ -148,7 +156,7 @@ form > a.botao {
 } 
 
 form > a.botao:hover {
-    background-color: var(--cor02);
+    background-color: var(--cor07);
     color: var(--cor04);
 }
 
