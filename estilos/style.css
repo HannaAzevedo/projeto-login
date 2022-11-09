@@ -67,8 +67,8 @@ section#login > div#formulario {
 }
 
 div#formulario > h1 {
+    font-size: 1.2em;
     text-align: center;
-
 }
 
 div#formulario > p {
