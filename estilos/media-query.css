@@ -61,7 +61,7 @@ preto: 000000
 
     main > section#login {
         width: 800px;
-        height: 380px;
+        height: 360px;
     }
 
     main > section#login > div#imagem {
@@ -78,7 +78,8 @@ preto: 000000
     }
 
     section div#formulario > h1 {
-        padding-top: 40px;
+        padding-top: 30px;
+        padding-bottom: 10px;
         font-size: 1.8em;
     }
 
