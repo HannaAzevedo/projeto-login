@@ -41,7 +41,6 @@ preto: 000000
     }
 
     main > section#login > div#formulario {
-    
         float: right;
         width: 60%;
     }
@@ -79,8 +78,8 @@ preto: 000000
     }
 
     div#formulario > h1 {
-        font-size: 1.8em;
         padding-top: 40px;
+        font-size: 1.8em;
     }
 
     div#formulario > p {

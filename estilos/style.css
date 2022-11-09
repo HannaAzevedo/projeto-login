@@ -18,38 +18,35 @@ preto: 000000
 }
 
 * {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0px;
     margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
 }
 
 body, html {
-
     background-color: var(--cor01);
-    height: 100vh;
     width: 100vw;
+    height: 100vh;
 }
 
 main {
-
     position: relative;
-    height: 100vh;
     width: 100vw;
+    height: 100vh;
     
 }
 
 section#login {
-   
-    background-color: var(--cor03);
+    position: absolute;
     width: 280px;
     height: 450px;
-    position: absolute;
-    border-radius: 20px;
     top: 50%;
     left: 50%;
-    overflow: hidden;
+    background-color: var(--cor03);
+    border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(124, 29, 141, 0.384);
+    overflow: hidden;
     transform: translate(-50%, -50%);
     transition: width 0.5s, heigth 0.5s;
     transition-timing-function: ease;
@@ -58,10 +55,10 @@ section#login {
 
 section#login > div#imagem {
     display: block;
+    height: 150px;
     background: var(--cor01) url(../imagens/login.png) no-repeat;
     background-position: center;
     background-size: cover;
-    height: 150px;
 }
 
 section#login > div#formulario {
@@ -75,44 +72,42 @@ div#formulario > h1 {
 }
 
 div#formulario > p {
-    font-size: 1em;
-    text-align: center;
     padding-top: 8px;
     padding-bottom: 2px;
+    font-size: 1em;
+    text-align: center;
 }
 
 form > div.campo {
-
-    background-color: transparent;
     height: 42px;
-    border: 1px solid var(--cor01);
-    border-radius: 8px;
     margin: 5px 0px;
     padding: 5px;
+    background-color: transparent;
+    border: 1px solid var(--cor01);
+    border-radius: 8px;
 }
 
 form > div > span {
-    color: var(--cor04);
-    font-size: 2em;
     width: 30px;
     padding: 5px;
+    color: var(--cor04);
+    font-size: 2em;
 }
 
 div.campo > input {
-    background-color: transparent;
-    font-size: 1em;
     width: calc(100% - 34.5px);
     height: 34px;
-    border: none;
-    border-radius: 8px;
     padding-top: 7px;
     padding-left: 5px;
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
     transform: translateY(-4px);
 }
 
 
 div.campo > input:focus-within {
-    
     outline-style: solid;
     outline-color: var(--cor02);
 }
@@ -124,13 +119,13 @@ form label {
 
 form > input[type=submit] {
     display: block;
-    font-size: 1em;
     width: 100%;
     height: 40px;
     background-color: var(--cor06);
     color:var(--cor03);
     border: none;
     border-radius: 8px;
+    font-size: 1em;
     cursor: pointer;
 }
 
@@ -139,20 +134,19 @@ form > input[type=submit]:hover {
     color: var(--cor03);
 }
 form > a.botao {
-    
-    background-color: var(--cor03);
     display: block;
-    text-align: center;
-    font-size: 1em;
     width: 100%;
     height: 40px;
     padding: 7px;
     margin-top: 5px;
+    background-color: var(--cor03);
     color:var(--cor07);
     border: 1px solid var(--cor06);
     border-radius: 8px;
-    cursor: pointer;
+    text-align: center;
+    font-size: 1em;
     text-decoration: none;
+    cursor: pointer;
 } 
 
 form > a.botao:hover {
